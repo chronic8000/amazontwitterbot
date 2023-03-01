@@ -24,7 +24,7 @@ categories = ["Books", "Electronics", "Clothing", "Toys", "Home"]
 category = random.choice(categories)
 
 # Constructing an Amazon search URL with the category and a random page number
-base_url = "https://www.amazon.com/s?k="
+base_url = "https://www.amazon.co.uk/s?k="
 page_num = random.randint(1, 10)
 search_url = base_url + category + "&page=" + str(page_num)
 
